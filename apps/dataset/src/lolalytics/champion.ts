@@ -235,7 +235,7 @@ export async function getLolalyticsChampion(
     queryParams.append("ep", "champion");
     queryParams.append("p", "d");
     queryParams.append("v", "1");
-    queryParams.append("tier", "emerald_plus");
+    queryParams.append("tier", "master_plus");
     queryParams.append("queue", "420");
     queryParams.append("region", "all");
     queryParams.append("patch", patch);

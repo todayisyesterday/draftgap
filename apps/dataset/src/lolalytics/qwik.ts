@@ -303,7 +303,7 @@ export async function getLolalyticsQwikChampion(
     patch = patch.split(".").slice(0, 2).join(".");
 
     const queryParams = new URLSearchParams();
-    queryParams.append("tier", "emerald_plus");
+    queryParams.append("tier", "master_plus");
     queryParams.append("region", "all");
     queryParams.append("patch", patch);
     if (role) {
